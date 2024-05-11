@@ -1,0 +1,26 @@
+/* Media CSS */
+@media (max-width: 480px)  {
+   .header h1 {
+       display: none;
+   }
+    .header .user-menu {
+        text-align: right;
+        width: 100%;
+        padding-right: 20px;
+
+    }
+    .board {
+        flex-direction: column;
+        justify-content: space-between;
+padding: 0 20px;
+    }
+    .column {
+        height: auto;
+        width: 100%;
+        margin: 0 0 30px;
+    }
+}
+
+.footer {
+    display: none;
+}
